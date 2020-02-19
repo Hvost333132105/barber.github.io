@@ -1,0 +1,342 @@
+body,html{
+	background:url(img/st.jpg)no-repeat center center fixed ;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: #424242; 
+	width: 100%;
+	
+	}
+#menu{
+	background: rgb(3,3,3,0.9);
+	height: 100%;
+}
+#navig a{
+	font-family: Century Gothic, sans-serif;
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #FAFAFA;
+}
+#vnshnmenu{
+	background: rgb(20,20,20,0);
+}
+.fa-bars{
+	color: #A52A2A;
+}
+#vnshnmenu #fa-bars{
+	background:rgb(28,28,28);
+}
+#vnshnmenu button{
+	background:#A52A2A;
+	color: rgb(28,28,28);
+	height: 55px;
+	font-family: Century Gothic, sans-serif;
+	font-size: 1.2em;
+	font-weight: 500;
+	border:none;
+	outline:none; 
+	padding-top: 13px;
+}
+#vnshnmenu button:hover{
+	background:rgb(28,28,28);
+	color:#A52A2A;
+	transition: 0.3s;
+}
+#vnshnmenu button:not(:hover){
+	background:#A52A2A;
+	color:rgb(28,28,28);
+	transition: 0.3s;
+}
+#mi{
+	background: url(img/oblozka.jpg)no-repeat center center ;
+	background-size: cover;
+	background-blend-mode: multiply;
+	background-color: #424242; 
+	height: 590px;
+  	width: 100%;
+  	position: relative;
+  	top: -80px;
+}
+#mi img{
+	width:500px;padding-top: 155px;
+}
+#nem{
+	background:#2E2E2E opacity;
+	font-size: 1.3em;
+}
+#nem img {
+	width: 100%;
+	max-width: 250px;
+}
+#nem1 img{
+	width: 100%;
+	max-width: 200px;
+	float: left;
+}
+#nem1 .padding{
+	background: rgba(27,27,27,0.8);
+	padding: 25px;
+	margin: 50px 15px 15px 15px;
+	border-radius: 21px;
+	min-height: 230px;
+	max-height: 400px;
+}
+.carousel-inner img{
+	transform: translateY(-30%);
+}
+.carousel-inner{
+	height: 450px;
+}
+.carousel-inner img{
+	height: 100%;
+}
+.carousel-caption{
+	top: 50%;
+	transform: translateY(-80% );
+	text-shadow: 1px 1px 10px #000;
+}
+#carousel{
+	background: url(img/bkc_car.jpeg)no-repeat center center  ;
+	background-size: cover;
+	margin-top: 50px;
+	background-blend-mode: multiply;
+	background-color: #424242; 
+}
+#carousel p{
+	font-family: Monotype Corsiva	;
+	padding-top: 75px;
+	font-size: 1.5em;
+}
+#carousel .alert{
+	font-family: DejaVu Sans Mono, monospace;
+	font-size: 1.3em;
+	font-weight: 900;
+}
+#carousel i {
+	color: #A52A2A;
+	font-size: 35px;
+	outline:none;
+	border: none;
+	background: rgba(46,46,46,1);
+	height: 65px;
+	width:65px; 
+	padding-top: 16px;
+	border-radius: 40px;
+}
+#h1c{
+	text-align: center;
+	color: white;
+	font-size: 4em;
+	font-weight: 600;
+}
+#price .padding{
+	background: rgb(13,13,13);
+	
+	height: 100%;
+	padding: 20px 5px 20px 5px;
+	margin: 50px 0 1px 0;
+}
+#price h3{
+	font-size: 1.1em;
+ 	text-align: center;
+ 	padding-top: 20px;
+ 	font-weight:600;
+ 	color: white;
+}
+#price p{
+	font-size: 1em;
+	color:white;
+	padding: 10px 5px 10px 5px;
+	line-height: 1.9em;
+	font-family:Century Gothic, sans-serif;	 
+}
+#nk{margin-top: 100px;}
+#nk h1{text-align: center;font-size: 4.3em;}
+#nkimg img{
+	max-width: 305px;
+	width: 100%;
+	height: 375px;
+	margin: 20px 0 0 0 ;
+}
+#nkimg h3{
+	font-size: 2.7em;
+	padding-top: 33px;
+	color: white;
+}
+#nkimg p{
+	font-size: 1em;
+	font-weight: 900;
+}
+#nkimg .text-center{
+	background: rgba(0,0,0,1); 
+	color: #A52A2A;
+}
+#nkimg .text-center:hover{
+	background: rgba(165, 42, 42,1);
+	color: black;
+	transition: 0.5s;
+}
+#nkimg .text-center:not(:hover){
+	background: rgba(0,0,0,1);
+	transition: 0.5s;
+}
+#rabota img{
+	width: 100%;
+	max-width: 255px;
+	height: 100%;
+	max-height: 325px;
+	margin:30px 0px 40px 0px;
+	border-radius: 9px;
+}
+hr{
+	color: #A52A2A;
+	height: 0.5px;
+}
+#k4m{
+	color: #2E2E2E;
+	background: #A52A2A;
+	height: 65px;
+	border: none;
+	outline:none;
+	border-radius: 21px;
+	font-family: Century Gothic, sans-serif;
+	font-size: 1.2em;
+	font-weight: 5	00;
+	box-shadow: none;
+}
+#k4m:hover{
+	color: #A52A2A ;background: #2E2E2E;transition: 0.5s; }
+#k4m:not(:hover){color:#2E2E2E ;background:#A52A2A ;transition: 0.5s; }
+#foot{
+	background: url(img/foot.jpg) center center no-repeat;
+	background-size: cover;
+	
+	margin: 30px 0 15px 0;
+	background-blend-mode: multiply;
+	background-color: #424242; 
+	font-size: 1em;
+	font-family: Noto Sans, sans-serif;
+	font-weight: 600;	
+	padding:30px 30px 30px 60px;
+}
+#foot i{
+	font-size: 2em;
+	color: #A52A2A;
+}
+#oz {
+	color: #2E2E2E;
+	background: #A52A2A;
+	height: 65px;
+	padding: 10px;
+	border: none;
+	outline:none;
+	font-family: Century Gothic, sans-serif;
+	font-size: 1.2em;
+	font-weight: 500;
+	width: 100%;
+}
+#oz:not(:hover){
+	color: #A52A2A ;background: #2E2E2E;transition: 0.5s; }
+#oz:hover{color:#2E2E2E ;background:#A52A2A ;transition: 0.5s; }
+input[type="text"],input[type=password]{
+	width: 100%;
+	height: 50px;
+	font-size: 1.2em;
+	padding-left: 10px;
+	background: rgb(165, 42, 42,0);
+	border-radius: none !important;
+	border: 1px  solid #F08080 ;	
+}
+input:focus{
+	background: rgb(165, 42, 42,0)!important;
+    border: none;	
+    box-shadow: inset 5em 5em white!important; 
+}
+#sb{
+	color: #2E2E2E;
+	background: #A52A2A;
+	height: 60px;
+	width: 60px;
+	padding: 5px 0 0 20px;
+	margin: 0  50px 10px 0;
+	border: none;
+	outline:none;
+	font-size: 2em;
+	font-weight: 500;
+	border-radius:15px; 
+	transition: background-color .3s;
+ 	z-index: 1000;
+}
+#sb:not(:hover){
+	color: #A52A2A ;background: #2E2E2E;transition: 0.5s; }
+#sb:hover{color:#2E2E2E ;background:#A52A2A ;transition: 0.5s; }
+@media (max-width: 700px){
+	#foot{
+	background: url(img/foot.jpg) center center no-repeat;
+	background-size: cover;
+	height: 100%;
+	margin: 30px 0 15px 0;
+	background-blend-mode: multiply;
+	background-color: #424242; 
+	font-size: 0.7em;
+	font-family: Noto Sans, sans-serif;
+	font-weight: 400;	
+	padding:30px 30px 30px 60px;
+	}
+	#nkimg h3{
+	font-size: 1.3em;
+	padding-top: 33px;
+	color: white;
+	}
+	#nkimg p{
+	font-size: 0.9em;
+	font-weight: 900;
+	}
+	#nk h1{text-align: center;font-size: 1.5em;}
+	#vnshnmenu button{
+		height: 40px;
+		padding-top: 7px;
+	}
+	#mi{
+	height: 290px;
+	}	
+	#mi img{
+	width:500px;padding-top: 75px;
+	}
+	#nem img {
+	width: 100%;
+	max-width: 120px;
+	}
+	#nem{
+		line-height: 1.3em;
+		font-size: 1.2em;
+	}
+	h4{
+		font-size: 1.1em;
+	}
+	h3{
+		font-size: 1em;
+	}
+	#nem1 .padding{
+	padding: 25px;
+	margin:3px 5px 5px 5px;
+	}
+	h1{
+		font-size: 1.5em;
+	}
+	#h1c{
+	font-size: 1.5em;
+	}
+	#carousel{
+	background: url(img/bkc_car.jpeg)no-repeat center center  ;
+	background-size: cover;
+	margin-top: 33px;
+	background-blend-mode: multiply;
+	background-color: #424242; 
+	height: 375px;
+	}
+	#carousel p{
+	font-family: Monotype Corsiva	;
+	padding-top: 23px;
+	font-size: 1.2em;
+	}
+}
